@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Татьяна Одзиляева](https://up.htmlacademy.ru/htmlcss/37/user/2328801).
-* Наставник: [Владислав Ермолаев](https://htmlacademy.ru/profile/id128353).
+* Наставник: [Антон Варнавский](https://htmlacademy.ru/profile/id223468).
 
 ---
 
