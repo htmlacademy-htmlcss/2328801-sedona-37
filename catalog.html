@@ -8,6 +8,7 @@
   </head>
 
   <body>
+    <div class="page-container">
     <header class="page-header">
       <nav class="navigation">
         <a class="logo" href="index.html">
@@ -132,6 +133,7 @@
         </form>
       </section>
       <section class="hotels">
+        <div class="hotels-top">
         <h2 class="result">Найдено гостиниц:38</h2>
         <select class="select-control" aria-label="Сортировка">
           <option value="popular">Сначала дешевые</option>
@@ -139,83 +141,87 @@
         </select>
         <ul class="display-mode">
           <li class="display-mode-item">
-            <a href="#" class="button button-active">
-              <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M4 0H0V6H4V0Z" fill="black" />
-                <path d="M16 0H12V6H16V0Z" fill="black" />
-                <path d="M10 0H6V6H10V0Z" fill="black" />
-                <path d="M4 8H0V14H4V8Z" fill="black" />
-                <path d="M16 8H12V14H16V8Z" fill="black" />
-                <path d="M10 8H6V14H10V8Z" fill="black" />
-              </svg>
+            <a href="#" class="view-button button-card button-active">
               <span class="visually-hidden">Показать карточки</span>
             </a>
           </li>
           <li class="display-mode-item">
-            <a href="#" class="button">
-              <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M16 12H0V14H16V12Z" fill="black" />
-                <path d="M14 2V8H2V2H14ZM16 0H0V10H16V0Z" fill="black" />
-              </svg>
+            <a href="#" class="view-button button-desktop">
               <span class="visually-hidden">На весь экран</span>
             </a>
           </li>
           <li class="display-mode-item">
-            <a class="button" href="#">
-              <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M2 0H0V2H2V0Z" fill="black" />
-                <path d="M16 0H4V2H16V0Z" fill="black" />
-                <path d="M2 4H0V6H2V4Z" fill="black" />
-                <path d="M16 4H4V6H16V4Z" fill="black" />
-                <path d="M2 8H0V10H2V8Z" fill="black" />
-                <path d="M16 8H4V10H16V8Z" fill="black" />
-                <path d="M2 12H0V14H2V12Z" fill="black" />
-                <path d="M16 12H4V14H16V12Z" fill="black" />
-              </svg>
+            <a class="view-button button-list" href="#">
               <span class="visually-hidden">Показать список</span>
             </a>
           </li>
         </ul>
+        </div>
+
         <ul class="hotel-list">
           <li class="hotel-card">
             <img class="hotel-card-image" src="images/hotel-amara.jpg" alt="Amara Resort & Spa.">
             <h3 class="hotel-card-title">Amara Resort & Spa</h3>
-            <p>Гостиница</p>
-            <span class="hotel-card-price"> От 4000₽</span>
+            <div class="block-price">
+            <span>Гостиница</span>
+            <span class="hotel-card-price"> От 4000 ₽</span>
+            </div>
+            <div class="block-button">
             <a class="hotel-card-button button" href="#">Подробнее</a>
             <button class="button favorites-button" type="button">В избранное</button>
+            </div>
+            <div class="block-rating">
             <p class="stars star-four"> <span class="visually-hidden">4 звезды</span></p>
             <span class="raiting-item">Рейтинг:8,5</span>
+            </div>
           </li>
           <li class="hotel-card">
             <img class="hotel-card-image" src="images/hotel-villas.jpg" alt="Villas at Poco Diablo.">
             <h3 class="hotel-card-title">Villas at Poco Diablo</h3>
-            <p>Гостиница</p>
-            <span class="hotel-card-price">От 5000₽</span>
+            <div class="block-price">
+            <span>Гостиница</span>
+            <span class="hotel-card-price">От 5000 ₽</span>
+            </div>
+            <div class="block-button">
             <a class="hotel-card-button button" href="#">Подробнее</a>
             <button class="button favorites-button" type="button">В избранное</button>
+            </div>
+            <div class="block-rating">
             <p class="stars star-four"> <span class="visually-hidden">4 звезды</span></p>
             <span class="raiting-item">Рейтинг:9,2</span>
+            </div>
           </li>
           <li class="hotel-card">
             <img class="hotel-card-image" src="images/hotel-desert.jpg" alt="Desert Quail Inn.">
             <h3 class="hotel-card-title">Desert Quail Inn</h3>
-            <p>Гостиница</p>
-            <span class="hotel-card-price"> От 2500₽</span>
+            <div class="block-price">
+            <span>Гостиница</span>
+            <span class="hotel-card-price"> От 2500 ₽</span>
+            </div>
+            <div class="block-button">
             <a class="hotel-card-button button" href="#">Подробнее</a>
             <button class="button favorites-button" type="button">В избранное</button>
+            </div>
+            <div class="block-rating">
             <p class="stars star-three"> <span class="visually-hidden">3 звезды</span></p>
             <span class="raiting-item">Рейтинг:6,9</span>
+            </div>
           </li>
           <li class="hotel-card">
             <img class="hotel-card-image" src="images/hotel-green.jpg" alt="GreenTree Inn.">
             <h3 class="hotel-card-title">GreenTree Inn</h3>
-            <p>Гостиница</p>
-            <span class="hotel-card-price">От 1500₽</span>
+            <div class="block-price">
+            <span>Гостиница</span>
+            <span class="hotel-card-price">От 1500 ₽</span>
+            </div>
+            <div class="block-button">
             <a class="hotel-card-button button" href="#">Подробнее</a>
             <button class="button favorites-button" type="button">В избранное</button>
+            </div>
+            <div class="block-rating">
             <p class="stars star-two"> <span class="visually-hidden">2 звезды</span></p>
             <span class="raiting-item">Рейтинг:5,0</span>
+            </div>
           </li>
         </ul>
         <ul class="pagination">
@@ -287,6 +293,7 @@
         <img src="images/htmlacademy.svg" width="115" height="33" alt="Логотип HTML Academy">
       </a>
     </footer>
+    </div>
   </body>
 
 </html>
